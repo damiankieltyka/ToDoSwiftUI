@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A19F13E2A1423B200E5E2F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A19F13D2A1423B200E5E2F7 /* GoogleService-Info.plist */; };
 		6A52A32B2A14221B00F9696F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6A52A32A2A14221B00F9696F /* FirebaseAuth */; };
 		6A52A32D2A14221B00F9696F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6A52A32C2A14221B00F9696F /* FirebaseFirestore */; };
 		6A52A32F2A14221B00F9696F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6A52A32E2A14221B00F9696F /* FirebaseFirestoreSwift */; };
@@ -34,7 +33,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6A19F13D2A1423B200E5E2F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6A70193929E20207007EE2F2 /* ToDoAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A70193C29E20207007EE2F2 /* ToDoAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		6A70193E29E20207007EE2F2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 		6A19F1422A14264800E5E2F7 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				6A19F13D2A1423B200E5E2F7 /* GoogleService-Info.plist */,
 				6A70193C29E20207007EE2F2 /* ToDoAppSwiftUIApp.swift */,
 				6A70194029E20208007EE2F2 /* Assets.xcassets */,
 			);
@@ -224,7 +221,6 @@
 			files = (
 				6A70194429E20208007EE2F2 /* Preview Assets.xcassets in Resources */,
 				6A70194129E20208007EE2F2 /* Assets.xcassets in Resources */,
-				6A19F13E2A1423B200E5E2F7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +389,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = private.ToDoAppSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -421,6 +418,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = private.ToDoAppSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
