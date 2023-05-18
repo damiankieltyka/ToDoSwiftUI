@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>857851789219-gma6puih1i47b7vjld2mgbbh2osh8pai.apps.googleusercontent.com</string>
+	<string>80205215716-9snqkvvqflf5ncdk96m96dqokjbtrnv8.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.857851789219-gma6puih1i47b7vjld2mgbbh2osh8pai</string>
+	<string>com.googleusercontent.apps.80205215716-9snqkvvqflf5ncdk96m96dqokjbtrnv8</string>
 	<key>API_KEY</key>
-	<string>AAA</string>
+	<string>AIzaSyC5b_OsmO-XeRKCbriuRMzZw7Jhgfkv9Ek</string>
 	<key>GCM_SENDER_ID</key>
-	<string>857851789219</string>
+	<string>80205215716</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>private.ToDoAppSwiftUI</string>
 	<key>PROJECT_ID</key>
-	<string>swiftuitodolist-45a3e</string>
+	<string>todoappswiftui</string>
 	<key>STORAGE_BUCKET</key>
-	<string>swiftuitodolist-45a3e.appspot.com</string>
+	<string>todoappswiftui.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:857851789219:ios:81fc60f862745ba5a92416</string>
+	<string>1:80205215716:ios:573b06239eaa53bb93b9f1</string>
 </dict>
 </plist>
