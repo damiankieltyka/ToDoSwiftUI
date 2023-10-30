@@ -1,0 +1,46 @@
+# Xcode
+.DS_Store
+xcuserdata/
+
+# Swift build artifacts
+.build/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# SPM dependencies
+Packages/
+.build/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Generated files
+DerivedData/
+.idea/
+
+# macOS
+.DS_Store
+
+# Xcode
+*.xcuserstate
+*.xcworkspace
+
+# Build files
+build/
+DerivedData/
+
+# Compiled source files
+*.o
+*.pyc
+
+# Dependencies
+/vendor/
+
+# macOS
+.DS_Store
+GoogleService-Info.plist
