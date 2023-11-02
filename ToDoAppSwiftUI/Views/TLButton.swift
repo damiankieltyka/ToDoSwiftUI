@@ -10,10 +10,11 @@ import SwiftUI
 struct TLButton: View {
     let title: String
     let background: Color
+    let action: () -> Void
     
     var body: some View {
         Button {
-            // Attempt login
+            action()
         } label: {
             ZStack {
                 RoundedRectangle(cornerRadius: 10)
@@ -28,5 +29,7 @@ struct TLButton: View {
 }
 
 #Preview {
-    TLButton(title: "Value", background: .pink)
+    TLButton(title: "Value", background: .pink) {
+        // action
+    }
 }

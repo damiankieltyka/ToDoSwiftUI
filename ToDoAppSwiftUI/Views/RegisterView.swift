@@ -22,10 +22,20 @@ struct RegisterView: View {
             Form {
                 TextField("Full name", text: $name)
                     .textFieldStyle(DefaultTextFieldStyle())
+                    .autocorrectionDisabled()
+                
                 TextField("Email address", text: $email)
                     .textFieldStyle(DefaultTextFieldStyle())
+                    .textInputAutocapitalization(.never)
+                    .autocorrectionDisabled()
+                
                 SecureField("Password", text: $password)
                     .textFieldStyle(DefaultTextFieldStyle())
+                
+                TLButton(title: "Register", background: .green) {
+                    // register
+                }
+                .padding()
             }
             .offset(y: -50)
             
