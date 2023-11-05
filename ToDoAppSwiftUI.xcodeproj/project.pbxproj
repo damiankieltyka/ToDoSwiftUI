@@ -31,6 +31,7 @@
 		6AAF924C2A154BE400256183 /* ToDoListItemVieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF924B2A154BE400256183 /* ToDoListItemVieViewModel.swift */; };
 		6AAF924E2A155E9200256183 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF924D2A155E9200256183 /* HeaderView.swift */; };
 		6AB6EC612AF3FBC200346607 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB6EC602AF3FBC200346607 /* TLButton.swift */; };
+		6AE394E52AF7C3A900870AC5 /* Encodable++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE394E42AF7C3A900870AC5 /* Encodable++.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		6AAF924B2A154BE400256183 /* ToDoListItemVieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemVieViewModel.swift; sourceTree = "<group>"; };
 		6AAF924D2A155E9200256183 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		6AB6EC602AF3FBC200346607 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		6AE394E42AF7C3A900870AC5 /* Encodable++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable++.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		6A70193B29E20207007EE2F2 /* ToDoAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				6AE394E32AF7C38E00870AC5 /* Extensions */,
 				6A19F1422A14264800E5E2F7 /* Others */,
 				6A19F1412A14261500E5E2F7 /* Models */,
 				6A19F1402A1425FD00E5E2F7 /* ViewModels */,
@@ -154,6 +157,14 @@
 				6A70194329E20208007EE2F2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AE394E32AF7C38E00870AC5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6AE394E42AF7C3A900870AC5 /* Encodable++.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +252,7 @@
 				6AAF92402A154B7F00256183 /* MainViewViewModel.swift in Sources */,
 				6AAF92442A154BA200256183 /* ToDoListIViewViewModel.swift in Sources */,
 				6AAF92322A1549E300256183 /* ToDoListIView.swift in Sources */,
+				6AE394E52AF7C3A900870AC5 /* Encodable++.swift in Sources */,
 				6AB6EC612AF3FBC200346607 /* TLButton.swift in Sources */,
 				6AAF92382A154A3500256183 /* RegisterView.swift in Sources */,
 				6AAF92422A154B9400256183 /* ProfileViewViewModel.swift in Sources */,
