@@ -53,5 +53,3 @@ struct NewItemView_Previews: PreviewProvider {
         }))
     }
 }
-
-// 09:45
